@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003399;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .projects, .support {
+            margin: 20px 0;
+        }
+        .project {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #0044cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #003399;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Personal</h1>
+        <p>Bienvenido a mi espacio en la web</p>
+    </header>
+    <nav>
+        <a href="#projects">Proyectos</a>
+        <a href="#support">Apóyame</a>
+    </nav>
+    <div class="container">
+        <section id="projects" class="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1. Este proyecto trata sobre...</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2. Este proyecto trata sobre...</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 3</h3>
+                <p>Descripción del proyecto 3. Este proyecto trata sobre...</p>
+            </div>
+        </section>
+        <section id="support" class="support">
+            <h2>Apóyame</h2>
+            <p>Si te gustan mis proyectos y deseas apoyarme, puedes hacerlo a través del siguiente enlace:</p>
+            <a href="#" class="button">Donar</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mi Nombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
